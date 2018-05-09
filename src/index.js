@@ -132,7 +132,7 @@ InputField.defaultProps = {
   selectOnClick: true,
   wrap: null,
   onEmpty: null,
-  disableRequireCheck: false
+  disableRequireCheck: false,
 }
 
 InputField.propTypes = {
@@ -153,10 +153,9 @@ InputField.propTypes = {
   wrap: PropTypes.func,
   selectOnClick: PropTypes.bool,
   onEmpty: PropTypes.func,
-  disableRequireCheck: PropTypes.bool
+  disableRequireCheck: PropTypes.bool,
 }
 
 export const RequiredIcon = () => {
-  const style = {fontSize: '1.5rem'}
-  return <span className="text-danger" style={style}>*</span>
+  return <i className="fas fa-asterisk text-danger" data-fa-transform="shrink-7 up-6"></i>
 }

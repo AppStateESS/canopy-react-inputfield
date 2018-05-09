@@ -1,6 +1,6 @@
 {
   "name": "canopy-react-inputfield",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Input field for Canopy",
   "main": "build/index.js",
   "scripts": {
