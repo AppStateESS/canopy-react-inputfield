@@ -1,7 +1,7 @@
 {
   "name": "canopy-react-inputfield",
   "version": "0.1.2",
-  "description": "Input field for Canopy",
+  "description": "Input field for Canopy/phpwebsite",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,7 +32,6 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "classnames": "^2.2.5",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
