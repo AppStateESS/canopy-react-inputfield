@@ -1,7 +1,7 @@
-# canopy-react-overlay
+# canopy-react-inputfield
 Creates a input field for a form. Granted, may be overkill, but it helps
 with labels and such.
-Works with Canopy/phpwebsite.
+Works with AppStateESS/Canopy.
 
 |Prop name|Type|Description|
 |----|----|----|
