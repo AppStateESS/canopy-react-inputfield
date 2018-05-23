@@ -23,3 +23,4 @@ Works with AppStateESS/Canopy.
 |selectOnClick|boolean|If true, the value in the input will be highlighted for replacement|
 |onEmpty|function|Function that should be run if the input is empty and blurred|
 |disableRequireCheck|boolean|Disable the blur empty check when flagged as required. Lets you set your own way of handling empty inputs.|
+|classes|string|CSS class added to the div container surrounding the input|

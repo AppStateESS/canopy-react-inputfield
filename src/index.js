@@ -105,7 +105,7 @@ export default class InputField extends Component {
       : null
 
     return (
-      <div className="form-group">
+      <div className={`form-group${this.props.classes ? ' ' + this.props.classes : null}`}>
         {label}
         {input}
         {errorBadge}
@@ -154,6 +154,7 @@ InputField.propTypes = {
   selectOnClick: PropTypes.bool,
   onEmpty: PropTypes.func,
   disableRequireCheck: PropTypes.bool,
+  classes: PropTypes.string,
 }
 
 export const RequiredIcon = () => {

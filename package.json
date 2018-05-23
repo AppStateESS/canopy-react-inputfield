@@ -1,6 +1,6 @@
 {
   "name": "canopy-react-inputfield",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Input field for Canopy/phpwebsite",
   "main": "build/index.js",
   "scripts": {
