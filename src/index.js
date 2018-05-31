@@ -129,7 +129,7 @@ InputField.defaultProps = {
   disabled: false,
   size: null,
   maxLength: null,
-  selectOnClick: true,
+  selectOnClick: false,
   wrap: null,
   onEmpty: null,
   disableRequireCheck: false,
