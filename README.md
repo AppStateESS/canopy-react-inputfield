@@ -1,8 +1,34 @@
-# canopy-react-inputfield
+# @essappstate/canopy-react-inputfield
+
 Creates a input field for a form. Granted, may be overkill, but it helps
 with labels and such.
 Works with AppStateESS/Canopy.
 
+## Install
+```
+npm install --save-dev @essappstate/canopy-react-inputfield
+```
+
+## Example
+```Javascript
+
+import InputField from '@essappstate/canopy-react-inputfield'
+
+setUsername(val) {
+  this.setState({username: val})
+}
+
+render() {
+  <InputField
+    name="username"
+    label="Username"
+    value={this.state.username}
+    change={this.setUsername.bind(this)}
+    required={true}/>
+}
+```
+
+## Properties
 |Prop name|Type|Description|
 |----|----|----|
 |name|string|Name parameter of input|
